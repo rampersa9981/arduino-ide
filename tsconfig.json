@@ -1,0 +1,25 @@
+{
+  "compilerOptions": {
+    "module": "commonjs",
+    "target": "es2024",
+    "outDir": "out",
+    "lib": [
+      "dom",
+      "es2024"
+    ],
+    "sourceMap": true,
+    "rootDir": "src",
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "allowSyntheticDefaultImports": true
+  },
+  "exclude": [
+    ".vscode-test",
+    "esp",
+    "dist",
+    "out",
+    "node_modules",
+    "src/views",
+    "test-resources"
+  ]
+}
